@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mochammad Fathan Hasibuan</title>
 
-    <!-- Bootstrap -->
+    <!-- Bootstrap
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">-->
+    <link rel="stylesheet" href="{{site.baseurl}}/css/style.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -20,20 +20,23 @@
   <body>
 
     <header>
+      <h3>"Header"</h3>
       <h1>Fathan</h1>
-      <nav>
-        <ul>
-          <li><a href="{{site.baseurl}}/index.html">Home</a></li>
-          <li><a href="{{site.baseurl}}/news.html">News</a></li>
-        </ul>
-      </nav>
+      {% include nav.html %}
     </header>
 
+    <h3>"Content"</h3>
     {{content}}
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <footer>
+      <h3>"Footer"</h3>
+      {% include nav.html %}
+      <p>&copy 2017 Mochammad Fathan Hasibuan</p>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins)
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+    <!-- Include all compiled plugins (below), or include individual files as needed
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>  -->
   </body>
 </html>
