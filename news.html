@@ -1,11 +1,10 @@
 ---
 layout: default
 ---
-
 <h1>news</h1>
-
 <ul>
-  {% for news in site.posts %}
+  {% for news in site.categories.news %} <!-- for global post folder purpose, use..
+  % for news in site.posts % instead -->
     <li>
       <a href="">{{news.title}}</a>
       <p>{{news.meta}}</p>

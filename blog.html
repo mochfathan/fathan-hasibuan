@@ -1,3 +1,14 @@
 ---
 layout: default
 ---
+<h1>news</h1>
+<ul>
+  {% for news in site.categories.blog %} <!-- for global post folder purpose, use..
+  % for news in site.posts % instead -->
+    <li>
+      <a href="">{{news.title}}</a>
+      <p>{{news.meta}}</p>
+    </li>
+  {% endfor %}
+</ul>
+ 
