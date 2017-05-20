@@ -2,8 +2,8 @@
 <nav>
   <div class="nav {{include.navclass}}">
     <a href="{{site.baseurl}}/index.html" class="{% if page.url == '/index.html' %}current{% endif %}">Home</a>
-    <a href="{{site.baseurl}}/blog.html" class="{% if page.url == '/blog.html' %}current{% endif %}">Blog</a>
-    <a href="{{site.baseurl}}/news.html" class="{% if page.url == '/news.html' %}current{% endif %}">News</a>
+    <a href="{{site.baseurl}}/about.html" class="{% if page.url == '/about.html' %}current{% endif %}">About</a>
+    <a href="{{site.baseurl}}/news.html" class="{% if page.url contains 'news' or page.url contains 'blog' %}current{% endif %}">News</a>
   </div>
 </nav>
 <hr>
