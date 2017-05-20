@@ -5,6 +5,7 @@ meta: This news post is a trial post to ensure the tag #Simple description/spoil
 source: #Add reference link if posts were taken from another source
 category: news
 ---
+{{page.title}}
 
 This News Post is a trial post to ensure the tag is working properly and checking error(s) if any.
 

@@ -6,7 +6,7 @@ layout: nestednews
   {% for news in site.categories.blog %} <!-- for global post folder purpose, use..
   % for news in site.posts % instead -->
     <li>
-      <a href="">{{news.title}}</a>
+      <a href="{{site.baseurl}}{{news.url}}">{{news.title}}</a>
       <p>{{news.meta}}</p>
     </li>
   {% endfor %}
