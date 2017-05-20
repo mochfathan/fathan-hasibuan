@@ -1,4 +1,13 @@
-markdown: kramdown
+
+title: Mochammad Fathan Hasibuan
+email: mochfathanhasibuan@gmail.com
 baseurl: /fathan-hasibuan
+
+facebook_username: Mochammad Fathan Hasibuan
+twitter_username: mochfathan_
+github_username:  mochfathan
+instagram_username: mochfathan_
+
 exclude: ['README.md']
+markdown: kramdown
 port: 9000
