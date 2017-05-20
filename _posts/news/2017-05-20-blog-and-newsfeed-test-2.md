@@ -1,5 +1,5 @@
 ---
-layout: default #Layout used
+layout: nestednews #Layout used
 title: News Post-2 #title for the page
 meta: This news post is a trial post to ensure the tag #Simple description/spoiler
 source: #Add reference link if posts were taken from another source
