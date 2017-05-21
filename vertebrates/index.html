@@ -1,0 +1,64 @@
+---
+layout: default
+---
+
+<h1><u>Vertebrates</u></h1>
+
+<h2>Amphibians</h2>
+<ul>
+  {% for vertebrate in site.pages %}
+    {% if vertebrate.type == 'amphibians' %}
+    <li>
+      {{vertebrate.title}}
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+<hr>
+
+<h2>Birds</h2>
+<ul>
+  {% for vertebrate in site.pages %}
+  {% if vertebrate.type == 'birds' %}
+  <li>
+    {{vertebrate.title}}
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>
+<hr>
+
+<h2>Fishes</h2>
+<ul>
+  {% for vertebrate in site.pages %}
+    {% if vertebrate.type == 'fishes' %}
+    <li>
+      {{vertebrate.title}}
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+<hr>
+
+<h2>Mammals</h2>
+<ul>
+  {% for vertebrate in site.pages %}
+    {% if vertebrate.type == 'mammals' %}
+    <li>
+      {{vertebrate.title}}
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+<hr>
+
+<h2>Reptiles</h2>
+<ul>
+  {% for vertebrate in site.pages %}
+    {% if vertebrate.type == 'reptiles' %}
+    <li>
+      {{vertebrate.title}}
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>
