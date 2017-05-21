@@ -5,12 +5,20 @@ layout: default
 <h2>I'm Here</h2>
 <p>Start coding from now!</p>
 
-<h2><small>Check This Out</small></h2>
+<hr>
 
 <ol>
-  {%for blog in site.data.newblog %}
+  {% for vertebrate in site.categories.vertebrate %}
+  <li>
+    <a href="{{site.baseurl}}/vertebrates/{{vertebrate.folder}}">{{vertebrate.title}}</a>
+    <p>{{vertebrate.content}}</p>
+  </li>
   {% endfor %}
 </ol>
+
+<hr>
+
+<h2><small>Check This Out</small></h2>
 
 <ul>
   {% for news in site.posts limit:3 %}
