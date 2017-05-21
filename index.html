@@ -8,10 +8,10 @@ layout: default
 <hr>
 
 <ol>
-  {% for vertebrate in site.categories.vertebrate %}
+  {% for vertebrate in site.data.animals %}
   <li>
     <a href="{{site.baseurl}}/vertebrates/{{vertebrate.folder}}">{{vertebrate.title}}</a>
-    <p>{{vertebrate.content}}</p>
+    <p>{{vertebrate.content | markdownify}}</p>
   </li>
   {% endfor %}
 </ol>

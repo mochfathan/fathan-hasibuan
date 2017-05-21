@@ -1,0 +1,42 @@
+
+- layout: vertebrate
+  title: Caudata
+  meta: The order Caudata (from the Latin cauda meaning "tail") consists of the salamanders—elongated, low-slung animals that mostly resemble lizards in form. This is a symplesiomorphic trait and they are no more closely related to lizards than they are to mammals.
+  type: amphibians
+  category: vertebrate
+  folder: amphibians
+  content: The order Caudata (from the Latin cauda meaning "tail") consists of the salamanders—elongated, low-slung animals that mostly resemble lizards in form. This is a symplesiomorphic trait and they are no more closely related to lizards than they are to mammals.
+
+- layout: vertebrate
+  title: Struthionidae
+  meta: Struthionidae is a family of flightless ratite birds which first appeared during the Miocene epoch, though various Paleocene, Eocene and Oligocene ratites may belong to this group. Traditionally the order Struthioniformes contained the world's ratites, but recent genetic analysis has found that the group is not monophletyic, as it paraphyletic in respect to the tinamous.
+  type: birds
+  category: vertebrate
+  folder: birds
+  content: Struthionidae is a family of flightless ratite birds which first appeared during the Miocene epoch, though various Paleocene, Eocene and Oligocene ratites may belong to this group. Traditionally the order Struthioniformes contained the world's ratites, but recent genetic analysis has found that the group is not monophletyic, as it paraphyletic in respect to the tinamous.
+
+- layout: vertebrate
+  title: Carcharodon
+  meta: Carcharodon is a genus of sharks within the family Lamnidae. The only extant member of the genus is the great white shark (Carcharodon carcharias). Extinct members of the genus include Carcharodon caifassii and Carcharodon hubbelli. Carcharocles megalodon is still argued by some paleontologists (i. e. Michael D. Gottfried, and Robert Ewan Fordyce) that it is a close relative of Carcharodon carcharias. The megalodon's scientific name was originally 'Carcharodon' megalodon.
+  type: fishes
+  category: vertebrate
+  folder: fishes
+  content: Carcharodon is a genus of sharks within the family Lamnidae. The only extant member of the genus is the great white shark (Carcharodon carcharias). Extinct members of the genus include Carcharodon caifassii and Carcharodon hubbelli. Carcharocles megalodon is still argued by some paleontologists (i. e. Michael D. Gottfried, and Robert Ewan Fordyce) that it is a close relative of Carcharodon carcharias. The megalodon's scientific name was originally 'Carcharodon' megalodon.
+
+
+- layout: vertebrate
+  title: Cetacea
+  meta: Cetacea are a widely distributed and diverse clade of aquatic mammals that today consists of the whales, dolphins, and porpoises. Cetaceans are carnivorous and finned. Most species live in the sea, some in rivers. The name is derived from the Latin cetus "whale" and Greek ketos "huge fish".
+  type: mammals
+  category: vertebrate
+  folder: mammals
+  content: Cetacea are a widely distributed and diverse clade of aquatic mammals that today consists of the whales, dolphins, and porpoises. Cetaceans are carnivorous and finned. Most species live in the sea, some in rivers. The name is derived from the Latin cetus "whale" and Greek ketos "huge fish".
+
+
+- layout: vertebrate
+  title: Varanidae
+  meta: The Varanidae are a family of lizards of the superfamily Varanoidea. The family, a group of carnivorous and frugivorous lizards, includes the extinct Megalania (the largest known lizard), the Komodo dragon (the largest living lizard), and the crocodile monitor. The Varanidae contain the living genus Varanus and a number of extinct taxa. Their closest living relatives are the anguid and helodermatid lizards.
+  type: reptiles
+  category: vertebrate
+  folder: reptiles
+  content: The Varanidae are a family of lizards of the superfamily Varanoidea. The family, a group of carnivorous and frugivorous lizards, includes the extinct Megalania (the largest known lizard), the Komodo dragon (the largest living lizard), and the crocodile monitor. The Varanidae contain the living genus Varanus and a number of extinct taxa. Their closest living relatives are the anguid and helodermatid lizards.
