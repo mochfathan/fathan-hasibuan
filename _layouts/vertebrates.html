@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<strong><em>Vertebrates</em></strong>
+
+<nav>
+<ul>
+  {% for vertebrate in site.data.animals %}
+  <li>
+    <a href="{{site.baseurl}}/vertebrates/{{vertebrate.folder}}/" class="{% if page.url contains vertebrate.folder %}current{% endif %}">{{vertebrate.title}}</a>
+  </li>
+  {% endfor %}
+</ul>
+</nav>
+
+{{content}}
