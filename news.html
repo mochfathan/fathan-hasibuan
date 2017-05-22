@@ -2,6 +2,7 @@
 layout: nestednews
 ---
 <h1>News</h1>
+
 <ul>
   {% for news in site.categories.news %} <!-- for global post folder purpose, use..
   % for news in site.posts % instead -->
@@ -10,5 +11,6 @@ layout: nestednews
       <p>{{news.meta}}</p>
     </li>
   {% endfor %}
-  {% include newsletter.html %}
 </ul>
+
+{% include newsletter.html %}
